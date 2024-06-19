@@ -1,0 +1,40 @@
+{
+  "properties": [
+    {
+      "name": "kafka.sync.request-topic",
+      "type": "java.lang.String",
+      "description": "Topic for sending requests.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    },
+    {
+      "name": "kafka.sync.response-topic",
+      "type": "java.lang.String",
+      "description": "Topic for receiving responses.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    },
+    {
+      "name": "kafka.sync.response-group-id",
+      "type": "java.lang.String",
+      "description": "Group id for response.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    },
+    {
+      "name": "kafka.sync.request-group-id",
+      "type": "java.lang.String",
+      "description": "Group id for request.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    },
+    {
+      "name": "kafka.sync.timeout",
+      "type": "java.lang.Long",
+      "description": "Timeout for Kafka operations in milliseconds.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    },
+    {
+      "name": "kafka.sync.bootstrap-servers",
+      "type": "java.lang.Long",
+      "description": "Bootstrap server for Kafka.",
+      "sourceType": "dev.nikita.kafka.reply.starter.properties.KafkaSyncProperties"
+    }
+  ]
+}
